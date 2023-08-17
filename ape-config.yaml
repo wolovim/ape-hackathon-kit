@@ -1,0 +1,24 @@
+name: snetix
+
+plugins:
+  - name: solidity
+  - name: foundry
+
+dependencies:
+  - name: OpenZeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 4.9.3
+
+solidity:
+  version: 0.8.19
+  import_remapping:
+    - "@openzeppelin/=OpenZeppelin/4.9.3"
+
+foundry:
+  port: 8545
+  # block_time: 3
+
+test:
+  mnemonic: test test test test test test test test test test test junk
+  # match Anvil's generated accounts:
+  hd_path: "m/44'/60'/0'/0/{}"  
