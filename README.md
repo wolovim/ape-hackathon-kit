@@ -3,6 +3,8 @@
 Example project utilizing Ape for Solidity contract management and a Next.js
 application to display and interact with the contract on the front-end.
 
+<img width="422" alt="Screenshot 2023-08-17 at 3 39 07 PM" src="https://github.com/wolovim/ape-hackathon-kit/assets/3621728/3e2520a5-b2df-4d69-895d-2eef53303dcc">
+
 ## Setup
 
 ### 1. Compile and test the contract
