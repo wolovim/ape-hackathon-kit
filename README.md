@@ -37,3 +37,5 @@ e.g., MetaMask, and then interact with the contract using that test ether.
 - [Intro to Ape](https://snakecharmers.ethereum.org/intro-to-ape/)
 - [OpenZeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
 - [Next.js](https://nextjs.org/learn)
+
+_Hat tip to repo co-conspirators [fselmo](https://github.com/fselmo), [pacrob](https://github.com/pacrob), and [reedsa](https://twitter.com/stuartareed)._

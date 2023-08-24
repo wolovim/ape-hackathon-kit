@@ -6,8 +6,8 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Snetix',
-  description: 'Event ticketing on the blockchain',
+  title: 'ape-hackathon-kit',
+  description: 'Example project repo utilizing Ape and Next.js',
 }
 
 export default function RootLayout({
