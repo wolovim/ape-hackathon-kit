@@ -7,7 +7,7 @@ import "@openzeppelin/access/Ownable.sol";
 contract Billboard is Ownable {
     string public message;
 
-    constructor(string memory _message) {
+    constructor(string memory _message, address initialOwner) Ownable(initialOwner) {
       message = _message;
     }
 

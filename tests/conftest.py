@@ -18,4 +18,4 @@ def acct3(accounts):
 
 @pytest.fixture
 def contract_billboard(acct1, project):
-    return acct1.deploy(project.Billboard, "gm")
+    return acct1.deploy(project.Billboard, "gm", acct1.address)

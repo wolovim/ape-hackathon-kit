@@ -7,18 +7,16 @@ plugins:
 dependencies:
   - name: OpenZeppelin
     github: OpenZeppelin/openzeppelin-contracts
-    version: 4.9.3
+    version: 5.0.1
 
 solidity:
-  version: 0.8.19
+  version: 0.8.23
   import_remapping:
-    - "@openzeppelin/=OpenZeppelin/4.9.3"
+    - "@openzeppelin/=OpenZeppelin/5.0.1"
 
-foundry:
-  port: 8545
-  # block_time: 3
+default_ecosystem: ethereum
 
-test:
-  mnemonic: test test test test test test test test test test test junk
-  # match Anvil's generated accounts:
-  hd_path: "m/44'/60'/0'/0/{}"  
+ethereum:
+  default_network: local
+  local:
+    default_provider: foundry

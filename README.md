@@ -19,7 +19,7 @@ application to display and interact with the contract on the front-end.
 
 - Install Foundry
 - Start Anvil in one terminal pane (`$ anvil`)
-- Run the deploy script in another: `ape run deploy_local --network foundry`
+- Run the deploy script in another: `ape run deploy_local`
 
 ### 3. Interact with the contract in the web app
 
@@ -35,7 +35,7 @@ e.g., MetaMask, and then interact with the contract using that test ether.
 ## Resources
 
 - [Intro to Ape](https://snakecharmers.ethereum.org/intro-to-ape/)
-- [OpenZeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
+- [OpenZeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/5.x/wizard)
 - [Next.js](https://nextjs.org/learn)
 
 _Hat tip to repo co-conspirators [fselmo](https://github.com/fselmo), [pacrob](https://github.com/pacrob), and [reedsa](https://twitter.com/stuartareed)._
